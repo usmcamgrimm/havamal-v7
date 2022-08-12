@@ -1,0 +1,31 @@
+.pageTitle {
+  padding: 1rem 0 60px 0;
+  font-family: "norse", sans-serif;
+  font-weight: normal;
+  color: #66add9;
+  font-size: clamp(3rem, 6vw, 4rem);
+  text-align: center;
+}
+
+.gallery-container {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  row-gap: 2.5rem;
+}
+
+.image-container {
+  overflow: hidden; 
+  background-color: #E5E7EB; 
+  width: 100%; 
+  border-radius: 0.5rem;
+}
+
+.single-image:hover {
+  opacity: 0.75;
+}
